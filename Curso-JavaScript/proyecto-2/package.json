@@ -1,0 +1,17 @@
+{
+  "name": "ejercicio_1",
+  "version": "1.0.0",
+  "description": "Este es el primer ejercicio de la clase de javascript de Booptcamp",
+  "main": "index.js",
+  "scripts": {
+    "saludo":"node ejercicio_1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejercicio",
+    "prueba1",
+    "ejercicio_1"
+  ],
+  "author": "Carlos Bejarano",
+  "license": "ISC"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Este es el primer proyecto de la clase de java script de OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "saludar":"node  hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "holamundo",
+    "firstproyect"
+    
+  ],
+  "author": "Carlos Bejarano",
+  "license": "ISC"
+}
