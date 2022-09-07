@@ -20,7 +20,7 @@ const casa = {
     propietario: {
         nombre: 'carlos',
         apellido: 'bejarano',
-        documento: 1130639211
+        documento: 12365695
     }
 }
 console.log(casa.propietario)
