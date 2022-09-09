@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .linkdestacacursos {
+        /* background-color: #f00; */
+
+        color: #F00;
+        font-weight: bold;
+        margin-left: 25px;
+        /* width: 450px;
+            height: 300px;
+            position: absolute;
+            left: 400px;
+            top: 50px;
+            font-size: 36px;
+            text-align: center; */
+      }
+      .linkdestacaejemplos{
+        
+
+        color: rgb(0, 255, 85);
+        font-weight: bold;
+        margin-left: 25px;
+      }
+      a {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+      table {
+        text-align: center;
+        border: none;
+      }
+      td {
+        border: none;
+      }
+      #contieneEnlaces {
+        position: absolute;
+        left: 31px;
+        top: 65px;
+        width: 400px;
+        height: 649px;
+        z-index: 1;
+        padding-top: 100px;
+      }
+    </style>
+    <script src="Jquery/jQuery-v3-6-1.js"></script>
+    <script>
+        $(document).ready(function(){
+            // $("a[href^='https://']").addClass("linkdestacacursos");
+            document.getElementById("cursos").addEventListener("click",resaltar_curso,false);
+            document.getElementById("Informacion").addEventListener("click",resaltar_ejemplos,false);
+        });
+
+        function resaltar_curso(){
+            /* $(".ejemplos").removeClass("linkdestacacursos");
+            $(".cursos").addClass("linkdestacacursos"); */
+            $(".cursos").toggleClass("linkdestacacursos");
+
+        }
+        function resaltar_ejemplos(){
+            /* $(".cursos").removeClass("linkdestacacursos");
+            $(".ejemplos").addClass("linkdestacacursos"); */
+            $(".ejemplos").toggleClass("linkdestacaejemplos");
+        }
+    </script>
+
+    <title>Lector Atributos</title>
+  </head>
+  <body>
+    <div id="contieneEnlaces">
+      <a href="https://github.com/CalicheDev" target="_blank" class="cursos">
+        Repositorio Carlos Bejarano
+      </a><br>
+
+      <a href="https://www.linkedin.com/" target="_blank"> Perfil en LinkIn </a><br>
+
+      <a href="https://coinmarketcap.com/" target="_blank" class="cursos">
+        Coin Market Cap
+      </a><br>
+
+      <a href="https://www.adres.gov.co/consulte-su-eps" target="_blank" class="ejemplos">
+        Adres
+      </a><br>
+
+      <a
+        href="https://www.altiria.com.co/comprar-paquetes-de-sms/"
+        target="_blank"
+      >
+        Mensajeria Masiva
+      </a><br>
+
+      <a href="https://cryptobubbles.net/" target="_blank" class="ejemplos">
+        Cryptobubbles
+      </a><br>
+    </div>
+
+    <table>
+      <tr>
+        <td>
+          Cursos destacados&nbsp;&nbsp;<input
+            type="checkbox"
+            value="Cursos"
+            id="cursos"
+          />
+        </td>
+        <td>
+          Informacion adicional&nbsp;&nbsp;<input
+            type="checkbox"
+            value="Información"
+            id="Informacion"
+          />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
