@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      #primer_parrafo {
+        background-color: #f00;
+      }
+      
+    </style>
+    <script src="Jquery/jQuery-v3-6-1.js"></script>
+    <script>
+       $(document).ready(function(){
+        // var colorFondo=$("#primer_parrafo").css("background-color","#00F");
+        // alert(colorFondo);
+
+        $("p.destacado").css("border","2px dotted blue");
+       })
+    </script>
+
+    <title>Lector Atributos</title>
+  </head>
+  <body>
+    <p id="primer_parrafo">Primer Parrafo</p>
+    <p class="destacado"> Parrafo destacado</p>
+    <p>Tercer párrafo</p>
+  </body>
+</html>
