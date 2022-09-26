@@ -1,0 +1,78 @@
+//Introducción a Big Data Y Temas
+-Introduccion
+-Origen de los datos
+-Tipos de datos segun su estructura
+-El ciclo de gestion de la informacion
+-Las siete V de Big Data
+
+Tema 2
+-Ambitos
+BigData en la Salud
+BigData en campañas electorales
+BigData en deportes
+BigData en el ambito policial
+BigData en las empresas
+
+Tipos de visualizacion
+Graficos
+Area
+Barras
+Nube balas
+
+
+Tema 4
+Bi
+Qué es BI ?
+Tipos de BI 
+Herramientas de BI 
+
+Tema 5
+-Location Intelligence
+-Qué es
+-Para que sirve
+-Beneficios
+-Ejempos de uso
+-Plataformas de LI 
+-Qué tipos de plataformas exiten?
+
+
+Tema 6
+Patrones de busqueda
+-Patron
+-Patter marching
+-Regex
+Introduccion al Machine Learning
+-Ques ML
+-Tipos de algoritmos de ML
+-Herramientas de ML
+
+Tema 7
+-IA mas rapidas, seguras e inteligentes
+-Declive de las aplicaciones modernas
+-Análisis de datos
+-Mejoras en la gestion de datos
+-Servicios en la Nube
+-Mercado de datos
+
+
+Tema 8
+-Big Data y Seguridad
+-Privacidad y Seguridad
+-HybridEx
+
+Tema 9
+-Auditoria de algoritmos
+-Cómo auditarlo
+-Diferentes tipos de Auditoria
+-Por qué se deben auditarlo
+
+Tema 10
+-Marco Legal del BD
+-3 dimensiones
+-Los siete fundamentos de la GPBR
+
+Tema 11
+-Qué es la IA 
+-BigData e IA trabajando juntos
+-Analitycs con IA para BD 
+

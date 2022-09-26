@@ -1,0 +1,62 @@
+Son los datos las herramientas, los datos y el tratamiento que le podemos dar a los datos
+
+-Origen de los datos
+Pueden ser diferentes, producidos por personas, los generados entre maquinas M2M por ejemplo: el GPS, los parquimetros, dispensadores de tiendas, transferencias bancarias, compras online, reservas de hotel
+
+
+Paso 1 extraer los datos
+
+Paso 2 almacenar los datos
+
+Paso 3 tratamiento de los datos
+
+Paso 4 representacion de los datos - darle sentido a los datos
+
+Las 7 V del Big Data
+
+1. Velocidad: 
+2. Variedad
+3. Volumen
+4. Valor
+5. Veracidad
+6. Variabilidad
+7. Visualizacion
+
+
+Velocidad: con la que se analizan los datos requeridos por la sociedad, lo que supone un incremento constante de los datos y una mejora constante del algoritmos
+
+Variedad: los datos proceden de diferentes fuentes muy diversos
+
+Volumen: corresponde a la cantidad de datos que globalmente va en aumento, al igual que las aplicaciones y arquitecturas
+
+Valor: gran cantidad de datos con frecuencia extrae pequelas sumas de valor
+
+Veracidad: es asegurarse de que la informacion recogida es fiable y es muy importante
+
+Variabilidad: al estar en un entorno de macrodatos la informacion var+ia constantemente, por tanto es importante disponer de modelos o tratamientos de datos que se adapten a esos cambios. los cuales necesitan un control periódico.
+
+Visualizacion:se trate de convertir una gran cantidad de volumen de informacion en un único grafico que muestre las conclusiones a las que se ha llegado es importante; la sintetizacion de los datos es otro de los puntos clave a la hora de trabajar
+con metadatos.
+
+Beneficios
+-Es escalable
+-El coste almacenamiento es relativamente economico
+-Representa una gran ventaja trabajar con macrodatos que la mayoria son open source
+-Segmentacion de los clientes
+-Planes estrategisocs
+-Vincular clientes
+-Feedback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
