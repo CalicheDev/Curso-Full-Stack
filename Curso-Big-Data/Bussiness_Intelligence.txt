@@ -1,0 +1,34 @@
+Niveles de BI
+
+Storyboards
+-Graficas simples
+-Requiere poco tiempo de desarrollo
+-No son interactivos
+-Los datos son unicos y estaticos, relativamente sencillo
+
+Informes
+-Son presentaciones ordenadas de informacion detallada, muestra habitualmente los datos en tablas con visualizaciones, cuyo objetivo es analizar en detalle la informacion.
+-Requiere tiempo de desarrollo
+-Pcoa interaccion con el usuario final
+-Tiene una o varias fuentes de datos
+
+Dashboards
+-Son colecciones de visualizaciones y otros elementos, agrupados y distribuidos en un panel que permite opciones de navegación e interaccion por parte de los usuarios, con el objetivo principal de hacer Análisis de rendimiento
+-El desarrollo puede tardar días o incluso semanas
+-El nivel de detalle es medio
+-Los usuarios pueden interactuar con los Gráficos
+-Usa una o varias fuentes de datos
+
+Aplicacion 
+-Puede ser una extension de los Dashboards
+-Tiene graficos, tablas, mapas
+-El nivel de detalle es alto 
+-El desarrollo puede tardarse pocas semanas
+
+
+Herramientas de BI databits o visualizacion de datos
+-Tableau
+-Power BI
+
+
+

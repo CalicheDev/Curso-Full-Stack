@@ -28,7 +28,7 @@ Herramientas de BI
 
 Tema 5
 -Location Intelligence
--Qué es
+-Qué es ?
 -Para que sirve
 -Beneficios
 -Ejempos de uso
