@@ -1,0 +1,24 @@
+- Introducción
+Se espera que a finales de 2024 el 75% de las empresas utilicen IAs centradas en automatizar todas las operaciones de la empresa; lo que puede suponer una reduccion considerable de errores y un aumneto de hasta 5 veces de la transmision de datos.
+
+- Inteligencia Artificial
+
+- Declive de las aplicaciones modernas
+
+- Inteligencia de la decisión
+
+- Análisis y gestión de datos
+
+- Servicios en la nube
+
+- Mercado de datos y Blockchain
+
+- Aumento de la demanda de Data Scientist y CDO
+
+- conclusión
+
+Un Data Scientist o CDOs debe terner:
+-Conocer plataformas de gestion de datos
+-Lenguajes de programacion
+-Algoritmos de machine learning
+-Técnicas de manipulacion de datos

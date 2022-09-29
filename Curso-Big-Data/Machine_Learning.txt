@@ -1,0 +1,21 @@
+Esta ciencia aporta una se3rie de algoritmos que busca el aprendicaje automatico, cuyo objetivo es dotar al software la capacidad de aprender sin la necesidad de que se le programe para ello. Un ejemplo caro es el algoritmo de Youtube
+
+Aprendizaje supervisado 
+-Regresion lineal
+-Regresion logistica
+-Redes neuronales
+
+Aprendizaje no supervisado
+Se parte de datos iniciales
+No tiene muy buena estructura a mayor cantidad de datos
+-K-means
+-PCA
+-Detección de anomalias
+
+HERRAMIENTAS DE ML Y DataScience
+-SAS 
+-MatchWorks
+-Databricks
+
+
+27113
