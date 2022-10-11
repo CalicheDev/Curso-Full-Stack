@@ -12,11 +12,17 @@
     </style>
     <script src="Jquery/jQuery-v3-6-1.js"></script>
     <script>
-       $(document).ready(function(){
+       $(()=>{
         // var colorFondo=$("#primer_parrafo").css("background-color","#00F");
         // alert(colorFondo);
 
         $("p.destacado").css("border","2px dotted blue");
+        $(".hide-btn").click(()=>{
+          $("p").fadeOut()
+        })
+        $(".show-btn").click(()=>{
+          $("p").fadeIn()
+        })
        })
     </script>
 
@@ -26,5 +32,7 @@
     <p id="primer_parrafo">Primer Parrafo</p>
     <p class="destacado"> Parrafo destacado</p>
     <p>Tercer párrafo</p>
+    <button class="hide-btn">Hide</button>
+    <button class="show-btn">Show</button>
   </body>
 </html>
