@@ -10,7 +10,7 @@ class Persona {
     saludo(){
         console.log(`Hola, mi nombre es ${this.nombre}, tengo ${this.edad} años` )
     }
-}
+} 
 
 const nueva_persona = new Persona ('Carlos',34,true)
 console.log(nueva_persona)
