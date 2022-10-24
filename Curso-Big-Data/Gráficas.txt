@@ -1,0 +1,7 @@
+-Los graficos deben dar informacion acorde a lo que queremos mostrar, detectar tendencias, identificar correlaciones, presentar datos de forma eficaz
+
+Tipos de visualizaciones
+Graficos de area compara los cambios o las tendencias historicas mostrando la proporcion 
+mostrar cada categoria de que manera influye en el tiempo
+
+Gráficos de barras muestra varias barras verticales de la misma anchura, cada una representa una categoria o temporalidad, la altura de las barras es proporcional al valor que representa

@@ -1,0 +1,31 @@
+h1{
+    color: red;
+}
+
+p{
+    color:blue;
+    font-size: 16pt;
+}
+
+/* Para acceder a la clase se usa el punto .*/
+.noticia{
+    color: green;
+}
+
+/* Para acceder al id se usa el punto # */
+#noticiaas{
+    color: orange;
+}
+
+.encabezado{
+    color: blueviolet;
+}
+
+#autor, #fecha{
+    text-decoration:underline;
+}
+
+img{
+    border-color: red;
+    border-style: dashed;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <form action="resultados.html" method="GET">
+      <div>
+        <label for="nombreusuario">Nombre de usuarios</label>
+        <input type="text" id="nombreusuario" />
+      </div>      
+      <div>
+        <label for="password" >Contraseña</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" ></textarea>
+      </div>
+      <div>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" min="0" max="100" />
+      </div> 
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" />
+      </div> 
+      <div>
+        <label for="nacimiento">Fecha Nacimiento</label>
+        <input type="date" id="nacimiento" />
+      </div> 
+      <br>
+      <footer>
+        <!-- <button>Enviar</button> -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+      </footer>
+    </form>
+  </body>
+</html>

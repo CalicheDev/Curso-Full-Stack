@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multimedia con HTML</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <!-- Copia y pega este código en tu pagina web para insertar el buscador. -->
+    <div
+      id="Container"
+      style="
+        padding-bottom: 56.25%;
+        position: relative;
+        display: block;
+        width: 100%;
+      "
+    >
+      <iframe
+        loading="lazy"
+        name="SistrackIframe"
+        id="SistrackIframe"
+        width="100%"
+        height="100%"
+        src="https://medcol.sistrack.net/widget"
+        frameborder="0"
+        allowfullscreen=""
+        style="position: absolute; top: 0; left: 0"
+      ></iframe>
+    </div>
+    
+    
+    
+    <h3>Imagenes</h3>
+    <img src="images/help_desk_2.png" alt="Logo" />
+    <img
+      src="http://clinicafidem.com/wp-content/uploads/2021/02/logo-fidem-3.png"
+      alt=""
+    />
+
+    <h3>Video</h3>
+    <!-- <video width="300" height="300" src="video/prueba_video.mp4" controls></video> -->
+    <video width="300" height="300" controls>
+      <source src="video/videoplayback.mp4" type="video/mp4" />
+    </video>
+
+    <h3>Audios</h3>
+    <!-- <audio autoplay loop src="audio/canso.ogg" controls></audio> -->
+    <audio controls>
+      <source src="audio/canso.ogg" type="audio/mp3" />
+    </audio>
+  </body>
+</html>

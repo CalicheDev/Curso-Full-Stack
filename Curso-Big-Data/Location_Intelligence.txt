@@ -1,0 +1,23 @@
+Es el proceso para obtener y analizar datos geoespaciales de distintos tipos de fuentes de datos, con el objetivo de buscar nuevas oportunidades de negocio.
+
+Sirve para capturar de forma automatica los datos transferidos por GPS, wifi, bluetooth para alamcenarlos y realizar el proveso de BI. nos va permitir aislar los datos de valor, conocer los niveles, patrones y comportamientos de los usuarios, personas
+o nuestro publico objetivo, para tomar decisiones con una mejor calidad.
+
+-Se puede obtener la eficiencia del trabajo conociendo las horas de maxima concurrencia de los clientes
+-Obtener predicciones ajustadas
+
+Se puede ver movimiento global, por ejemplo datos de los migrantes de un pais a otro
+
+    GIS: Sistemas de informacion geográfica
+
+Herramientas: kepler.gl
+-Tableau
+-Powr BI 
+-Carto Builder
+
+
+
+
+
+
+

@@ -1,0 +1,37 @@
+.colores{
+    color: red;
+
+}
+
+.color-hexadecimal{
+    color: #ffb;
+}
+
+
+.color-rgb{
+    color: rgb(51, 239, 239);
+}
+
+.fondo{
+    background-color: blueviolet;
+    background-image: url("http://clinicafidem.com/wp-content/uploads/2021/02/logo-fidem-3.png");
+    background-position: top center;
+} 
+
+.ancho{
+    background-color: brown;
+    width: 105px;
+}
+
+.alto{
+    background-color: aquamarine;
+    height: 150px;
+}
+
+.tarjeta{
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    border-radius: 10px;
+    /* padding: 10px 20px; */
+}
