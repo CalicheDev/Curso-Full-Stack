@@ -1,0 +1,40 @@
+.static{
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.relative{
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background-color: greenyellow;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+}
+
+.relative.contenedor{
+    width: 300px;
+    height: 400px;
+    background-color: blue;
+}
+
+
+.sticky{
+    position: sticky;
+    background-color: orange;
+    color: white;
+    top: 0px;
+    z-index: 2;
+}
+
+
