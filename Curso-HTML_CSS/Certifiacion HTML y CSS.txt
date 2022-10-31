@@ -1,0 +1,60 @@
+Certifiacion HTML y CSS
+1.Que elemento html se usa para identificar el documento
+-<title>
+
+2.De las siguientes opciones, cual no es un atributo valido para elementos <form>
+- url
+
+3. En una etiqueta <img> Qué atributo es obligatorio?
+- src
+
+4. El valor por defecto dle atributo Position es:
+- static
+
+5.CSS es acronimo de ?
+-cascading style sheets
+
+6. En un documento HTML Qué empleamos para identificar al navegador que despliegue el documento?
+-html
+
+7.De las siguientes opciones Cual es un selector mas especifico?
+-p
+
+8. De las siguientes opciones Cual es un selector mas especifico?
+- Todas tienen la misma especificidad
+
+9.DE los siguientes selectores Cual aplica a elementos que sean el unico subelemento de un elemento superior?
+-:only-child
+
+10. Si queremos crear un checkbox, debemos usar..
+- <input type="checkbox">
+
+11.De las siguientes opciones, Cual es verdadera?
+- Las listas desordenadas empiezan con <ul> y deben terminar con una etiqueta </ul>
+
+12. Si quiere crear un enlace para escribir un email, debemos usar..
+-<a href="mailto:elcorreoquedesees@correo.com">
+
+13. DE los siguientes selectores ¿Cual aplica a elementos que no tiene subelemento interno?
+-:empty
+
+14. Qué etiqueta HTML usaremos para empezar un parrafo
+- <p>
+
+15. Qué es un iframe?
+- Una manera de mostrar el contenido de una web
+
+16. Si un estilo que hemos definido no se esta aplicando, deberiamos como buena practica...
+- Ninguna de las anteriores
+
+17. De las siguientes opciones, Cual es un selector mas especifico?
+- div
+
+18. De las siguientes opciones, cuales son etiquetas vinculadas a tablas html ?
+- <table> <tr> <th> <td>
+
+19.Si queremos crear un borde de puntos de color rojo alrededor de una imagen, deberiamos emplear la propiedad...
+-border-color y border-style
+
+20.Cual debe ser la etiqueta principal de un documento HTML
+- head
