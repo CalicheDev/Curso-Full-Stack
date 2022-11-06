@@ -1,0 +1,18 @@
+
+
+
+h1#h1-id.h1-class{
+    color: blue;
+}
+
+.h1-class{
+    color: yellow;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    color: orange;
+}

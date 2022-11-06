@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .hover {
+        width: 300ps;
+        height: 100px;
+        background-color: rgb(225, 203, 245);
+      }
+      .hover:hover {
+        /*Se activa en cuanto el mouse pasa por encima*/
+        background-color: aquamarine;
+      }
+      .listado{
+        padding: 15px;
+        background-color: bisque;
+      }
+      .listado p:first-child{
+        color: blue;
+      }
+      a:visited{
+        color: crimson;
+      }
+      a:hover{
+        color: pink;
+      }
+      a:active{
+        color: greenyellow;
+      }
+    </style>
+    <title>Pseudo-Clases</title>
+  </head>
+  <body>
+    <div class="hover">
+      <p>
+        Este es un parrafo nuevo, que continene todos los cambios de estilos
+        hover y otras modificaciones que nos podamos imaginar
+      </p>
+    </div>
+    <div class="listado">
+        <p>Parrafo 1</p>
+        <p>Parrafo 2</p>
+        <p>Parrafo 3</p>
+        <p>Parrafo 4</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+        <a href="https://www.altiria.com.co/comprar-paquetes-de-sms/" target="_blank">Otra pagina</a>
+    </div>
+  </body>
+</html>

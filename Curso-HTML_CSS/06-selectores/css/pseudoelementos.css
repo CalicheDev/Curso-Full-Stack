@@ -1,0 +1,41 @@
+.contenedor{
+    width: 300px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.frase{
+    font-style: italic;
+}
+
+.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+
+.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+
+.libro{
+    background-color: bisque;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.libro p::first-letter{
+    font-size: xx-large;
+}
+
+.libro p::first-line{
+    color: orange;
+}
+
+.listado ul li::marker{
+    color: red;
+}
+
+.listado ol li::marker{
+    color: blue;
+}
