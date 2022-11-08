@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Registrar en formulario</h3>
+      <div>
+        <button class="google-btn">
+          <picture><ion-icon name="logo-google"></ion-icon></picture>
+          <span>Registrarse con Google</span>
+        </button>
+        <button class="twitter-btn">
+          <picture></picture>
+        </button>
+      </div>
+      <div class="separator">
+        <hr />
+        <span>Or</span>
+        <hr />
+      </div>
+      <form action="">
+        <div>
+          <label for="name">
+            <span>Name</span>
+            <input type="text" id="name" name="name" />
+          </label>
+          <label for="username">
+            <span>Username</span>
+            <input type="text" id="username" name="username" />
+          </label>
+        </div>
+        <label for="email">
+          <span>Email</span>
+          <input type="email" id="email" name="email" />
+        </label>
+        <label for="password">
+          <span>Password</span>
+          <input type="password" id="password" name="password" />
+        </label>
+        <label for="checkbox">
+            <input type="checkbox" id="checkbox" name="checkbox" />
+            <span>Aceptar las condiciones para poder ingresar</span>
+          </label>
+          <button type="submit" class="submit-btn">Crear Cuenta</button> 
+      </form>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  </body>
+</html>
