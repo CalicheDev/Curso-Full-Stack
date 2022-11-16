@@ -24,6 +24,8 @@ export default function Ejemplo2() {
         setContador2(contador2 +1);
     }
 
+    /**Trabajando con useEffect */
+    
     /**
      * ? Caso 1: Ejecutar SIEMPRE un snippet de código
      * Cada vez que haya un cambio en el estado del componenete

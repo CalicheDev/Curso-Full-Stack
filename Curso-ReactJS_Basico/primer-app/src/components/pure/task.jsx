@@ -1,28 +1,31 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import {Task } from '../../models/task.class';
+import React from "react";
+import PropTypes from "prop-types";
+import { Task } from "../../models/task.class";
 
-const TaskComponent = ({task}) => {
+//Importando la hoja de estilos de task
+import "../../assets/styles/task.scss";
+
+const TaskComponent = ({ task }) => {
   return (
-    <div>
-        <h1>
-            Nombre: {task.name}
-        </h1>
-        <h2>
-            Descripcion: {task.description}
-        </h2>
-        <h3>
-            Level: {task.level}
-        </h3>
-        <h4>
-            This task is: {task.completed ? 'COMPLETED':'PENDING'}
-        </h4>
-    </div>
-  )
-}
+    <tr className="fw-normal">
+      <th>
+        <span className="ms-2">{task.name}</span>
+      </th>
+      <td className="align-middle">
+        <span className="ms-2">{task.description}</span>
+      </td>
+      <td className="align-middle">
+        <span>{task.level}</span>
+      </td>
+      <td className="align-middle">
+        <span>{task.completed}</span>
+      </td>
+    </tr>
+  );
+};
 
 TaskComponent.propTypes = {
-    task: PropTypes.instanceOf(Task)
-}
+  task: PropTypes.instanceOf(Task),
+};
 
-export default TaskComponent
+export default TaskComponent;
