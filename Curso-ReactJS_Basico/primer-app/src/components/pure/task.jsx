@@ -18,7 +18,12 @@ const TaskComponent = ({ task }) => {
         <span>{task.level}</span>
       </td>
       <td className="align-middle">
-        <span>{task.completed}</span>
+        {task.completed ? ( <i className="bi-toggle-on" style={{color: 'green',fontWeight:'bold'}}></i> )
+        : ( <i className="bi-toggle-off" style={{color: 'grey',fontWeight:'bold'}}></i> )}
+
+
+
+        <span>{task.completed ? 'Completed':'Pending'}</span>
       </td>
     </tr>
   );
