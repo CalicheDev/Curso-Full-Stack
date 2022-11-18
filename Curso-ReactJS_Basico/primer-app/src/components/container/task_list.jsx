@@ -5,8 +5,17 @@ import { Task } from "../../models/task.class";
 import TaskComponent from "../pure/task";
 
 import "../../assets/styles/task.scss";
+import Taskform from "../pure/forms/taskForm";
 
 const TaskListComponent = (props) => {
+
+  const defaultTask1 = new Task('Example1', 'Description1',true,LEVELS.NORMAL);
+  const defaultTask2 = new Task('Example2', 'Description2',true,LEVELS.URGENT);
+  const defaultTask3 = new Task('Example3', 'Description3',true,LEVELS.BLOCKING);
+
+
+
+
   const defaultTask = new Task(
     "Example",
     "Default description",
@@ -15,7 +24,8 @@ const TaskListComponent = (props) => {
   );
 
   //Estado del componenete
-  const [tasks, setTasks] = useState(defaultTask);
+  const [tasks, setTasks] = useState([defaultTask1,defaultTask2,defaultTask3]);
+  const [loading, setLoading] = useState(true);
 
   const changeCompleted = (id) => {
     console.log("Cambiar el estado de una tarea");
@@ -41,11 +51,15 @@ const TaskListComponent = (props) => {
             </tr>
             </thead>
             <tbody>
-            <TaskComponent task={defaultTask}></TaskComponent>
+              {tasks.map((task, index)=>{
+                return(
+                  <TaskComponent key={index} task={task}></TaskComponent>
+                  )
+                })}
             </tbody>
           </table>
-
         </div>
+        <Taskform></Taskform>
       </div>
       {/* */}
       
