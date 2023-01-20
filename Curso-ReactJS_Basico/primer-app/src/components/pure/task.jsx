@@ -43,14 +43,14 @@ const TaskComponent = ({ task, complete }) => {
   function taskIconCompleted(){
     if(task.completed){
       return(<i
-      onClick={complete(task)}
-        className="bi-toggle-on"
+      onClick={()=>complete(task)}
+        className="bi-toggle-on task-action"
         style={{ color: "green", fontWeight: "bold" }}
       ></i>)
     }else {
       return(<i
-        onClick={complete(task)}
-        className="bi-toggle-off"
+        onClick={()=>complete(task)}
+        className="bi-toggle-off task-action"
         style={{ color: "grey", fontWeight: "bold" }}
       ></i>)
     }

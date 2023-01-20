@@ -56,6 +56,11 @@ const TaskListComponent = (props) => {
   }; */
   function completeTask(task) {
     console.log('Complete this Task:', task);
+    const index = tasks.indexOf(task);
+    const tempTasks = [...tasks];
+    tempTasks[index].completed= !tempTasks[index].completed;
+    //We update the state of the component and it will update the iteration of the task in order to show the task updated
+    setTasks(tempTasks);
   }
 
   return (
