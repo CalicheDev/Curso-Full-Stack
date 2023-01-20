@@ -7,6 +7,7 @@ import Ejemplo1 from "./hooks/Ejemplo1";
 import Ejemplo2 from "./hooks/Ejemplo2";
 import MiComponenteConContexto from "./hooks/Ejemplo3";
 import Greetingstyle from "./components/pure/greetingSyle";
+import Father from "./components/container/father";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
 
       <div>
         <TaskListComponent></TaskListComponent>
+        <Father>
+          
+        </Father>
       </div>
     </div>
   );
