@@ -63,6 +63,22 @@ const TaskListComponent = (props) => {
     setTasks(tempTasks);
   }
 
+  function deleteTask(task){
+    console.log('Complete this Task:', task);
+    const index = tasks.indexOf(task);
+    const tempTasks = [...tasks];
+    tempTasks.splice(index,1);
+    setTasks(tempTasks);
+  }
+
+  function addTask(task){
+    console.log('Complete this Task:', task);
+    const index = tasks.indexOf(task);
+    const tempTasks = [...tasks];
+    tempTasks.push(task);
+    setTasks(tempTasks);
+  }
+
   return (
     <div>
       <div className="col-12">
@@ -94,13 +110,14 @@ const TaskListComponent = (props) => {
                     key={index}
                     task={task}
                     complete={completeTask}
+                    remove={deleteTask}
                   ></TaskComponent>
                 );
               })}
             </tbody>
           </table>
         </div>
-        <Taskform></Taskform>
+        <Taskform add={addTask}></Taskform>
       </div>
       {/* */}
     </div>

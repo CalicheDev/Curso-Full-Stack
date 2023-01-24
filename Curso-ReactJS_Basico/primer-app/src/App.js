@@ -8,6 +8,7 @@ import Ejemplo2 from "./hooks/Ejemplo2";
 import MiComponenteConContexto from "./hooks/Ejemplo3";
 import Greetingstyle from "./components/pure/greetingSyle";
 import Father from "./components/container/father";
+import Optionalrender from "./components/pure/optionalRender";
 
 function App() {
   return (
@@ -43,13 +44,17 @@ function App() {
           <li class="active"> <a href="#">LOGIN</a></li>
         </ul>
       </header> */}
+      {/* Ejemplos de Renderizado condicional */}
+      
+      <Optionalrender></Optionalrender>
 
-      <div>
+
+      {/* <div>
         <TaskListComponent></TaskListComponent>
         <Father>
           
         </Father>
-      </div>
+      </div> */}
     </div>
   );
 }
