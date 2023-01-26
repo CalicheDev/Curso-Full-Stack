@@ -56,8 +56,21 @@ const TaskComponent = ({ task, complete, remove }) => {
     }
   }
 
+  // Se crean dos funciones para darle estilos a las tareas segun este completada o pendiente
+  const taskCompleted={
+    color: 'green',
+    fontWeight: 'bold',
+    textDecoration: 'line-through'
+  }
+
+  const taskPending={
+    color: 'orange',
+    fontWeight: 'bold',
+    textDecoration: 'line-through'
+  }
+
   return (
-    <tr className="fw-normal">
+    <tr className="fw-normal" style={task.completed ? taskCompleted : taskPending} >
       <th>
         <span className="ms-2">{task.name}</span>
       </th>

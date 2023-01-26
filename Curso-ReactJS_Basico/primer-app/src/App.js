@@ -46,15 +46,13 @@ function App() {
       </header> */}
       {/* Ejemplos de Renderizado condicional */}
       
-      <Optionalrender></Optionalrender>
+      {/* <Optionalrender></Optionalrender> */}
 
 
-      {/* <div>
+      <div>
         <TaskListComponent></TaskListComponent>
-        <Father>
-          
-        </Father>
-      </div> */}
+        {/* <Father>        </Father> */}
+      </div>
     </div>
   );
 }
