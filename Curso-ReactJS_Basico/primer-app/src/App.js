@@ -9,6 +9,7 @@ import MiComponenteConContexto from "./hooks/Ejemplo3";
 import Greetingstyle from "./components/pure/greetingSyle";
 import Father from "./components/container/father";
 import Optionalrender from "./components/pure/optionalRender";
+import Loginformik from "./components/pure/forms/loginFormik";
 
 function App() {
   return (
@@ -50,8 +51,11 @@ function App() {
 
 
       <div>
-        <TaskListComponent></TaskListComponent>
+        {/* <TaskListComponent></TaskListComponent> */}
         {/* <Father>        </Father> */}
+
+        {/* Ejemplo de uso de Formik y Yup */}
+        <Loginformik> </Loginformik>
       </div>
     </div>
   );
