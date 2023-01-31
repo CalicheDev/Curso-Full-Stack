@@ -2,6 +2,15 @@ import React from "react";
 import { Formik, Field, Form } from "formik";
 import * as Yup from "yup";
 
+//API for Login with username
+/* const baseUrl="https://manteliviano.com/acuasur/api/loginMovil1"; */
+
+//API for Login with email
+/* const baseUrl="http://190.145.32.226:8000/api/acceso" */
+//API for Register with email
+/* const baseUrl="http://190.145.32.226:8000/api/register"; */
+
+
 const loginSchema = Yup.object().shape({
   email: Yup.string()
     .email("Invalid email format")
@@ -58,7 +67,7 @@ export default function Loginformik() {
               }
 
               <label htmlFor="password">Password</label>
-              <Field id="password" name="password" placeholder="password" />
+              <Field id="password" type="password" name="password" placeholder="password" />
 
               {/* Password errors */}
               {
